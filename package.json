@@ -1,0 +1,39 @@
+{
+  "name": "justin",
+  "version": "0.0.0",
+  "description": "timekeeper and activity log",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "justin": "bin/justin.js"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrejewski/justin"
+  },
+  "keywords": [
+    "time",
+    "track",
+    "keep",
+    "log",
+    "activity",
+    "just",
+    "in"
+  ],
+  "author": "Chris Andrejewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrejewski/justin/issues"
+  },
+  "homepage": "https://github.com/andrejewski/justin",
+  "dependencies": {
+    "commander": "^2.2.0",
+    "moment": "^2.7.0"
+  },
+  "devDependencies": {}
+}
