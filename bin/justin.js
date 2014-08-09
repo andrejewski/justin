@@ -108,7 +108,7 @@ function printTimes(timers) {
 				str = timer.name+": ";
 			total += time;
 			if(program.multi) return str + moment.duration(time).humanize();
-			return moment.duration(time).humanize();
+			return Math.floor(moment.duration(time).get('day'))+"d "+Math.floor(moment.duration(time).get('hour'))+"h "+Math.floor(moment.duration(time).get('minute'))+"m";
 		});
 	if(program.multi) times.push("total: "+moment.duration(total).humanize());
 	console.log(times.join('\n'));

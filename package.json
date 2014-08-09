@@ -10,7 +10,8 @@
     "justin": "bin/justin.js"
   },
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "mocha --recursive",
+    "test-spec": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -21,9 +22,7 @@
     "track",
     "keep",
     "log",
-    "activity",
-    "just",
-    "in"
+    "activity"
   ],
   "author": "Chris Andrejewski",
   "license": "ISC",
@@ -35,5 +34,7 @@
     "commander": "^2.2.0",
     "moment": "^2.7.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  }
 }
